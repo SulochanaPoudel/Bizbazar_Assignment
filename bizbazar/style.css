@@ -1,0 +1,180 @@
+/* Global styles */
+body {
+    font-family: Arial, 'Times New Roman', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #7a279d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-weight: 500;
+}
+
+.nav-logo {
+    color: rgb(248, 187, 34);
+    font-size: 40px;
+    padding-left: 30px;
+    font-family: cursive;
+    margin-right: 300px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Login and Signup styles */
+#login, #signup {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+input {
+    margin-right: 20px;
+    height: 25px;
+    width: 300px;
+}
+
+/* Form headings */
+#loginh2 {
+    margin-top: -350px;
+    margin-right: -230px;
+    color: #ab0cdb;
+}
+
+#signuph2 {
+    margin-top: -450px;
+    margin-right: -200px;
+    color: #ab0cdb;
+}
+
+/* Buttons styles */
+button {
+    margin-right: 100px;
+    background-color: rgb(236, 186, 46);
+    font-weight: 700;
+    border-color: #fff;
+    border-width: 5px;
+}
+
+#loginbtn, #signupbtn {
+    background-color:  rgb(236, 186, 46);
+    border-color: black;
+    border-width: 2px;
+    height: 30px;
+    width: 80px;
+    margin-right: 30px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    width: 300px;
+    padding: 5px;
+}
+
+/* Active link style */
+.active {
+    background-color: #ab0cdb;
+}
+
+/* Home page styles */
+img {
+    width: 1520px;
+    height: 700px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+#homep {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+}
+
+.boxh {
+    color: #7a279d;
+}
+
+.leftp {
+    display: flex;
+    padding: 20px;
+}
+
+.homeimg {
+    height: 200px;
+    width: 400px;
+    padding: 20px;
+}
+
+/* Shop page styles */
+#shop {
+    margin-top: 20px;
+}
+
+.fashion {
+    background-color: #e7cdf3;
+}
+
+.shoph1 {
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+}
+
+.dp {
+    font-style: italic;
+    padding: 20px;
+}
+
+/* Contact page styles */
+#contact {
+    background-image: linear-gradient(45deg, rgb(255, 255, 255), rgb(249, 205, 251), rgba(255, 255, 255, 0.925));
+}
+
+#contactd {
+    text-align: center;
+    margin: 300px 500px 300px 600px;
+}
+
+/* About page styles */
+#about {
+    display: block;
+    background-image: linear-gradient(45deg, rgb(255, 255, 255), rgb(246, 204, 248), rgba(255, 255, 255, 0.925));
+}
+
+#abouth {
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: dotted;
+    font-style: italic;
+}
+
+#aboutp {
+    text-align: center;
+    padding: 30px;
+    font-weight: 600;
+}

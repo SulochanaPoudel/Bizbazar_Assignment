@@ -1,9 +1,9 @@
 # Bizbazar_Assignment
 
-This project is a webpage for browsing components of a fictional tech company.
+This project is a webpage for browsing components of a tech company.
 It includes a navigation bar with menus such as Home, Contact, About, etc.
 Each section has a simple UI, and the page supports scrolling when tabs are changed. 
-The active tab in the navigation bar is highlighted with a different background color.
+The active tab in the navigation bar is highlighted with a different background.
 
 ## Screenshots/GIFs
 
